@@ -22,9 +22,19 @@ This will take the employee number given and then delete it from the list and th
 to a different table so you dont lose the file if that is needed in the company)
 
 ## How to use
-Make sure you have python and pygame downloaded to install python in linux its sudo apt install python3 and for pygame its sudo apt-get install idle pygame and on window its pip3 install pygame and f you need pip go in terminal and type https://bootstrap.pypa.io/get-pip.py then after python get-pip.py.
 Either just cloning which is down below or download the folder and then open main.py and run it then it will bring you to a main page with three buttons and a search bar type a employee if you want add just press where it says add if you want to delete or edit you must put a valid employee number then click on the edit or add.
+Make sure you have python and pygame installed to install follow below.
 
+## Windows
+
+
+## Linux/Ubuntu
+  ```
+  sudo apt install python3
+  ```
+  ```
+  sudo apt install idle pygame
+  ```
 ## Clone the repository
   ```
   git clone https://github.com/Ethan27108/HrSystem.git
