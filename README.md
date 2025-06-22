@@ -4,15 +4,15 @@
 
 This program is an HR System made using Python and the Pygame library for the GUI. I wanted to learn how to code using Pygame and create my own textboxes and pages to understand how they are made. 
 
-It is also built with a Microsoft SQL database as I was learning it, so the program is basic with just simple storing, retrieving, and table creation commands.
+It is also built with a Microsoft SQL database as I was learning it, so the program is basic with simple storing, retrieving, and table creation commands.
 
-This program uses many objects and classes that seem to serve no real purpose, and that's because I wanted to understand how complex and embedded you could create objects. A simple fix to make it more proper is to put all variables in the employee class and avoid subclasses for it.
+This program uses many objects and classes that seem to serve no real purpose, and that's because I wanted to understand how complex and embedded you could create objects. A simple fix to make it more proper is to put all variables in the employee class and avoid subclasses.
 
 The `Textbox` class is important and serves as an actual class that should exist in this program, along with the employee code.
 
 ## Description
 
-The point of this project was to learn, which is why some parts might seem strange. Please refer to the Basic Information section for more details. However, it was also meant to be something professional, which is why it uses databases instead of text files and has a GUI rather than just typing in a terminal.
+The point of this project was to learn, which is why some parts might seem strange. Please refer to the Basic Information section for more details. It is meant to be professional, which is why it uses databases instead of text files and has a GUI rather than simply typing in a terminal.
 
 This program is simple in functionality. It collects data for employees, such as first name, address, phone number, and much more, then stores it in a SQL database. You can add, edit, or delete employee records by searching for them using their employee number.
 
@@ -24,7 +24,7 @@ The Add function will bring you to a new page with several textboxes. You simply
 
 ### Edit Function
 
-The Edit function works similarly to the Add function. However, it automatically displays the existing information for the selected employee, based on the employee number. You can then modify and save the data.
+The Edit function works similarly to the Add function, however, it automatically displays the existing information for the selected employee, based on the employee number. You can then modify and save the data.
 
 ### Delete Function
 
